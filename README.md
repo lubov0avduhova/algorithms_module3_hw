@@ -1,25 +1,25 @@
-# Ðåàëèçóéòå ñîáñòâåííûå êëàññû Arrays è Collections, êîòîðûå áóäóò ñîäåðæàòü âñå ðåàëèçàöèè ìåòîäîâ binarySearch ñîãëàñíî äîêóìåíòàöèè Java.
+# Ð ÐµÐ°Ð»Ð¸Ð·ÑƒÐ¹Ñ‚Ðµ ÑÐ¾Ð±ÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ðµ ÐºÐ»Ð°ÑÑÑ‹ Arrays Ð¸ Collections, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð±ÑƒÐ´ÑƒÑ‚ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ð²ÑÐµ Ñ€ÐµÐ°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð² binarySearch ÑÐ¾Ð³Ð»Ð°ÑÐ½Ð¾ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°Ñ†Ð¸Ð¸ Java.
 
-## Âàø êëàññ Arrays äîëæåí ñîäåðæàòü ðåàëèçàöèè ñëåäóþùèõ ìåòîäîâ:
+## Ð’Ð°Ñˆ ÐºÐ»Ð°ÑÑ Arrays Ð´Ð¾Ð»Ð¶ÐµÐ½ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ñ€ÐµÐ°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ñ… Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð²:
 
-* static int binarySearch(byte[] a, byte key)- 1 áàëë
-* static int binarySearch(byte[] a, int fromIndex, int toIndex, byte key) - 2 áàëëà
-* static int binarySearch(char[] a, char key) - 1 áàëë
-* static int binarySearch(char[] a, int fromIndex, int toIndex, char key) - 2 áàëëà
-* static int binarySearch(double[] a, double key)- 1 áàëë
-* static int binarySearch(double[] a, int fromIndex, int toIndex, double key)- 2 áàëëà
-* static int binarySearch(float[] a, float key) - 1 áàëë
-* static int binarySearch(float[] a, int fromIndex, int toIndex, float key) - 2 áàëëà
-* static int binarySearch(int[] a, int key)- 1 áàëë
-* static int binarySearch(int[] a, int fromIndex, int toIndex, int key)- 2 áàëëà
-* static int binarySearch(long[] a, long key) - 1 áàëë
-* static int binarySearch(long[] a, int fromIndex, int toIndex, long key) - 2 áàëëà
-* static int binarySearch(short[] a, short key)- 1 áàëë
-* static int binarySearch(short[] a, int fromIndex, int toIndex, short key) - 2 áàëëà
-* static int binarySearch(T[] a, T key, Comparator c) - 2 áàëëà
-* static int binarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator c) - 2 áàëëà
+* static int binarySearch(byte[] a, byte key)- 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(byte[] a, int fromIndex, int toIndex, byte key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(char[] a, char key) - 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(char[] a, int fromIndex, int toIndex, char key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(double[] a, double key)- 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(double[] a, int fromIndex, int toIndex, double key)- 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(float[] a, float key) - 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(float[] a, int fromIndex, int toIndex, float key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(int[] a, int key)- 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(int[] a, int fromIndex, int toIndex, int key)- 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(long[] a, long key) - 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(long[] a, int fromIndex, int toIndex, long key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(short[] a, short key)- 1 Ð±Ð°Ð»Ð»
+* static int binarySearch(short[] a, int fromIndex, int toIndex, short key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(T[] a, T key, Comparator c) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator c) - 2 Ð±Ð°Ð»Ð»Ð°
 
-## Âàø êëàññ Collections äîëæåí ñîäåðæàòü ðåàëèçàöèè ñëåäóþùèõ ìåòîäîâ:
+## Ð’Ð°Ñˆ ÐºÐ»Ð°ÑÑ Collections Ð´Ð¾Ð»Ð¶ÐµÐ½ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ñ€ÐµÐ°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ñ… Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð²:
 
-* static int binarySearch(List> list, T key) - 2 áàëëà
-* static int binarySearch(List list, T key, Comparator c) - 2 áàëëà
+* static int binarySearch(List> list, T key) - 2 Ð±Ð°Ð»Ð»Ð°
+* static int binarySearch(List list, T key, Comparator c) - 2 Ð±Ð°Ð»Ð»Ð°
